@@ -9,13 +9,23 @@ body {
 
 .board {
     display: grid;
-    grid-template-columns: repeat(3, 120px);
+    grid-template-columns: repeat(5, 150px); /* Three columns */
     grid-gap: 20px;
 }
 
+.button-container {
+    text-align: center; /* Center align text and button */
+}
+
+.button-image {
+    width: 100px; /* Adjust as necessary */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and button */
+}
+
 .nipple {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     background-color: #ff5722;
     border: 5px solid #fff;
     border-radius: 50%;
@@ -37,4 +47,16 @@ body {
     background-color: #d84315;
     transform: scale(0.95);
     box-shadow: none;
+}
+
+p {
+    color: white;
+    font-size: 16px; /* Adjust size as necessary */
+}
+
+/* To ensure two rows of three buttons */
+@media screen and (max-width: 600px) {
+    .board {
+        grid-template-columns: repeat(2, 150px); /* Two columns for smaller screens */
+    }
 }
