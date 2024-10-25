@@ -3,11 +3,11 @@ const sounds = [
     new Audio('sounds/moan2.m4a'),
     new Audio('sounds/moan3.m4a'),
     new Audio('sounds/moan4.m4a'),
-    new Audio('sounds/moan1.m4a'),
-    new Audio('sounds/moan2.m4a'),
-    new Audio('sounds/moan3.m4a'),
-    new Audio('sounds/moan4.m4a'),
-    new Audio('sounds/moan1.m4a')
+    new Audio('sounds/moan5.m4a'),
+    new Audio('sounds/moan6.m4a'),
+    new Audio('sounds/moan7.m4a'),
+    new Audio('sounds/moan8.m4a'),
+    new Audio('sounds/moan9.m4a')
 ];
 
 document.querySelectorAll('.nipple').forEach((button, index) => {
