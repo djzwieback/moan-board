@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    margin: 0;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    grid-gap: 20px;
+}
+
+.nipple {
+    width: 120px;
+    height: 120px;
+    background-color: #ff5722;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nipple:hover {
+    background-color: #ff3d00;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nipple:active {
+    background-color: #d84315;
+    transform: scale(0.95);
+    box-shadow: none;
+}
