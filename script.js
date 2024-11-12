@@ -7,10 +7,10 @@ const sounds = [
     new Audio('sounds/moan6.m4a'),
     new Audio('sounds/moan7.m4a'),
     new Audio('sounds/moan8.m4a'),
-    new Audio('sounds/moan9.m4a')
-    new Audio('sounds/moan10.m4a')
-    new Audio('sounds/moan11.m4a')
-    new Audio('sounds/moan12.m4a')
+    new Audio('sounds/moan9.m4a'),
+    new Audio('sounds/moan10.m4a'),
+    new Audio('sounds/moan11.m4a'),
+    new Audio('sounds/moan12.m4a'),
     new Audio('sounds/moan13.m4a')
 ];
 
