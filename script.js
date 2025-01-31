@@ -17,7 +17,9 @@ const sounds = [
     new Audio('sounds/moan16.m4a'),
     new Audio('sounds/moan17.m4a'),
     new Audio('sounds/moan18.m4a'),
-    new Audio('sounds/moan19.m4a')
+    new Audio('sounds/moan19.m4a'),
+    new Audio('sounds/moan20.m4a'),
+    new Audio('sounds/moan21.m4a')
 ];
 
 document.querySelectorAll('.nipple').forEach((button, index) => {
